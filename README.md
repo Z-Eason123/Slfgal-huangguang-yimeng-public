@@ -8,7 +8,7 @@
 
 | 平台 | 文件 | 环境 |
 | --- | --- | --- |
-| Android | 黄粱一梦-1.0.3.apk | Android 5.0 及以上（鸿蒙 NEXT 不支持） |
+| Android | huangliangyimeng-1.0.3.apk | Android 5.0 及以上（鸿蒙 NEXT 不支持） |
 | Windows | SLFGgal-1.0.3-pc.zip | Windows 10/11（64 位） |
 | macOS | SLFGgal-1.0.3-mac.zip | macOS 10.14 及以上 |
 
