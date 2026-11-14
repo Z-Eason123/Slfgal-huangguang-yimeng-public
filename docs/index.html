@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>黄粱一梦 · 官方发布页</title>
+<meta name="description" content="学生团队制作的线性视觉小说，全年龄向，约 90% 台词配音，全流程约 10 分钟">
+<style>
+  :root {
+    --bg: #12101a;
+    --bg2: #1a1726;
+    --gold: #e2c08a;
+    --gold-dim: #b99a68;
+    --text: #e8e4dc;
+    --muted: #9a94a3;
+  }
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: "Noto Sans SC", "PingFang SC", "Microsoft YaHei", sans-serif;
+    line-height: 1.8;
+  }
+  .hero {
+    position: relative;
+    min-height: 72vh;
+    display: flex;
+    align-items: flex-end;
+    background: url("assets/cover.png") center/cover no-repeat;
+  }
+  .hero::after {
+    content: "";
+    position: absolute; inset: 0;
+    background: linear-gradient(180deg, rgba(18,16,26,0) 30%, rgba(18,16,26,.55) 65%, var(--bg) 100%);
+  }
+  .hero-inner {
+    position: relative; z-index: 1;
+    padding: 8vh 6vw 6vh;
+    max-width: 720px;
+  }
+  h1 {
+    font-size: clamp(40px, 7vw, 72px);
+    font-weight: 700;
+    letter-spacing: .12em;
+    color: var(--gold);
+    text-shadow: 0 2px 24px rgba(0,0,0,.6);
+  }
+  .tagline { color: var(--text); margin-top: .8em; font-size: 17px; text-shadow: 0 1px 12px rgba(0,0,0,.7); }
+  section { max-width: 960px; margin: 0 auto; padding: 56px 6vw; }
+  h2 {
+    font-size: 22px; letter-spacing: .25em; color: var(--gold);
+    margin-bottom: 24px; font-weight: 600;
+  }
+  h2::before { content: "— "; color: var(--gold-dim); }
+  .downloads { display: flex; flex-wrap: wrap; gap: 14px; }
+  .dl {
+    display: block; text-decoration: none;
+    border: 1px solid rgba(226,192,138,.45);
+    border-radius: 10px; padding: 14px 22px;
+    color: var(--gold); transition: background .2s;
+    min-width: 240px;
+  }
+  .dl:hover { background: rgba(226,192,138,.12); }
+  .dl b { display: block; font-size: 16px; letter-spacing: .05em; }
+  .dl span { color: var(--muted); font-size: 13px; }
+  .shots { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px; }
+  .shots img {
+    width: 100%; display: block; border-radius: 8px;
+    border: 1px solid rgba(255,255,255,.08);
+  }
+  .credits p { color: var(--text); }
+  .credits .thanks { color: var(--muted); margin-top: .4em; }
+  .rules { color: var(--muted); font-size: 14px; border-top: 1px solid rgba(255,255,255,.08); }
+  footer {
+    text-align: center; color: var(--muted); font-size: 13px;
+    padding: 32px 0 48px;
+  }
+  a { color: var(--gold); }
+</style>
+</head>
+<body>
+
+<div class="hero">
+  <div class="hero-inner">
+    <h1>黄粱一梦</h1>
+    <p class="tagline">学生团队制作的线性视觉小说 · 全年龄向 · 约 90% 台词配音 · 全流程约 10 分钟</p>
+  </div>
+</div>
+
+<section>
+  <h2>下载</h2>
+  <div class="downloads">
+    <a class="dl" href="https://github.com/Z-Eason123/Slfgal-huangguang-yimeng-public/releases/latest">
+      <b>Android</b><span>黄粱一梦-1.0.3.apk · Android 5.0 及以上（鸿蒙 NEXT 不支持）</span>
+    </a>
+    <a class="dl" href="https://github.com/Z-Eason123/Slfgal-huangguang-yimeng-public/releases/latest">
+      <b>Windows</b><span>SLFGgal-1.0.3-pc.zip · Windows 10/11（64 位）</span>
+    </a>
+    <a class="dl" href="https://github.com/Z-Eason123/Slfgal-huangguang-yimeng-public/releases/latest">
+      <b>macOS</b><span>SLFGgal-1.0.3-mac.zip · macOS 10.14 及以上</span>
+    </a>
+  </div>
+</section>
+
+<section>
+  <h2>预览</h2>
+  <div class="shots">
+    <img src="assets/schoolgate.png" alt="校门口">
+    <img src="assets/cg4.png" alt="CG">
+  </div>
+</section>
+
+<section class="credits">
+  <h2>制作</h2>
+  <p>编剧：戴文远 · 美术：冯骏骁 · 配音：陈煜枫 · 音乐：杨洛嘉 · 制作：李聿成 · 摄影：丁梓城</p>
+  <p class="thanks">特别鸣谢：奚萌玥、唐圣涵</p>
+</section>
+
+<section class="rules">
+  <h2>分发规则</h2>
+  <p>仅供个人学习与非商业欣赏，不得商业使用、售卖或改编牟利；允许免费转发 Releases 中的原始包</p>
+</section>
+
+<footer>
+  <p>《黄粱一梦》制作组 · <a href="https://github.com/Z-Eason123/Slfgal-huangguang-yimeng-public">GitHub 仓库</a> · <a href="https://github.com/Z-Eason123/Slfgal-huangguang-yimeng-public/releases">更新日志</a></p>
+</footer>
+
+</body>
+</html>
